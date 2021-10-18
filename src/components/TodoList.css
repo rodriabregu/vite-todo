@@ -1,0 +1,9 @@
+.trash {
+    text-decoration: line-through;
+}
+
+.btndone {
+    margin-bottom: 0.2rem;
+    margin-left: 0.5rem;
+    padding: 0.05rem;
+}
