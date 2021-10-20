@@ -10,15 +10,20 @@ function App() {
     setList([...list, addItem])
   }
 
+  const handleDelete = () => {
+    setList([])
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <p>Hello Vite + React!</p>
       <Todo addItem={addItem} />
       <TodoList list={list} setList={setList} />
+      <button className='btn-delete' disabled={list.length > 0 ? '' : "disabled"} onClick={handleDelete}>Delete all to-dos</button>
       </header>
     </div>
   )
 }
 
-export default App
+export default App;

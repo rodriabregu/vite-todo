@@ -16,7 +16,15 @@
     border-radius: 5px;
     color: black;
     border-radius: 0.2rem;
+    cursor: pointer;
   }
-  .button[disabled]{
-    opacity: 0.3;
-  }
+.button:hover {
+  background: rgb(117, 117, 118);
+  color: white;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.32;
+}
+.button[disabled]{
+  opacity: 0.3;
+}

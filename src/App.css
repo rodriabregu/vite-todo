@@ -29,3 +29,37 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+input {
+  border: none;
+}
+
+.btn-delete {
+  font-size: 1rem;
+  background: #34495e;
+  color: #fff;
+  border: none;
+}
+
+.btn-delete:hover {
+  background: #2c3e50;
+}
+
+.btn-delete:active {
+  background: #2c3e50;
+  top: 2px;
+}
+
+.btn-delete:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
+
+.btn-delete[disabled]{
+  opacity: 0.3;
+}
