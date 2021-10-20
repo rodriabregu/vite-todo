@@ -14,7 +14,7 @@ const TodoList = ({ list }) => {
                         <ul>
                             <li className={e.done ? "trash" : ''}>
                                 {e.description}
-                                <button className='btndone' onClick={() => changeDone(e)}>
+                                <button className='btn btn-4' onClick={() => changeDone(e)}>
                                     {e.done ? "Undone" : "Done"}
                                 </button>
                             </li>

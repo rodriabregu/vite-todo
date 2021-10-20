@@ -1,7 +1,11 @@
 .inputTodo {
     margin: 0.5rem;
     padding: 0.4rem;
-    background: #f8f8f8;
+    background: #f8f8f814;
+    border-radius: 0.3rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
 }
 
 .button {
@@ -11,6 +15,7 @@
     border: 0px solid;
     border-radius: 5px;
     color: black;
+    border-radius: 0.2rem;
   }
   .button[disabled]{
     opacity: 0.3;

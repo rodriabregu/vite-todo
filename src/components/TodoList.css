@@ -1,9 +1,56 @@
 .trash {
     text-decoration: line-through;
+    text-decoration-color: rgb(4, 14, 45);
 }
 
 .btndone {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
     margin-left: 0.5rem;
     padding: 0.05rem;
+    border-radius: 0.3rem;
 }
+
+.btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+  }
+  
+  .btn-4:hover {
+    background: #2c3e50;
+  }
+  
+  .btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+  }
+  
+  .btn-4:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+  
