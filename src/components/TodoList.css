@@ -3,6 +3,12 @@
     text-decoration-color: rgb(4, 14, 45);
 }
 
+.trash-white {
+    color: black;
+    text-decoration: line-through;
+    text-decoration-color: rgb(201, 201, 201);
+}
+
 .btndone {
     margin-bottom: 0.1rem;
     margin-left: 0.5rem;

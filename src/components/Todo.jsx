@@ -8,11 +8,15 @@ const Todo = (props) => {
 
     const handleSubmit = e => {
         e.preventDefault()
-        addItem({
+        const objSubmit = {
             id: idVar + 1,
             done: false,
             description,
-        })
+        }
+        addItem(objSubmit)
+        // let arrayStorage = []
+        // arrayStorage.push(objSubmit)
+        // localStorage.setItem('list', JSON.stringify(arrayStorage))
         setDescription('')
         idVar++
     }

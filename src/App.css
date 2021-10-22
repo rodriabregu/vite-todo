@@ -2,8 +2,20 @@
   text-align: center;
 }
 
+
 .App-header {
   background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-white{
+  background-color: #c7c7c7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,7 +42,7 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
-input {
+input{
   border: none;
 }
 
