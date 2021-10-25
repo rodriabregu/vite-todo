@@ -17,21 +17,12 @@ function App() {
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-  };
-
-  // useEffect(() => {
-  //   if(localStorage.getItem('list')){
-  //     const list = JSON.parse(localStorage.getItem('list'))
-  //     if (list) {
-  //       setList(list)
-  //     }
-  //   }
-  // }, [])
+  }
 
   return (
     <div className="App">
       <header className={darkMode ? 'App-header' : 'App-header-white'}>
-        <button onClick={toggleDarkMode}>{darkMode ? 'Dark mode off' : 'Dark mode on  '}</button>
+        <button className='btn btn-4' onClick={toggleDarkMode}>{darkMode ? 'Dark mode off' : 'Dark mode on  '}</button>
         <p>Hello Vite + React!</p>
       <Todo addItem={addItem} />
       <TodoList list={list} setList={setList} darkmode={darkMode}/>

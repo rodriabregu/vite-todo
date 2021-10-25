@@ -21,7 +21,6 @@ const TodoList = ({ list, setList, darkMode }) => {
     //     setList(filterList);
     // }
 
-
     return (
         <div>
             {list?.map(e => {
@@ -30,7 +29,7 @@ const TodoList = ({ list, setList, darkMode }) => {
                         <ul>
                             <li className={e.done ? "trash" : ''}>
                             {/* <li className={ darkMode ? e.done ? "trash-white" : '' : e.done ? "trash" : ''}> */}
-                                <button onClick={() => handleTextEdit(e)}>E</button>{e.description}
+                                {/* <button onClick={() => handleTextEdit(e)}>E</button>{e.description} */}
                                 <button className='btn btn-4' onClick={() => changeDone(e)}>
                                     {e.done ? "Undone" : "Done"}
                                 </button>
